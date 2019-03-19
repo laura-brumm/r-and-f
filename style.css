@@ -30,6 +30,9 @@ body {
   margin: 0;
   max-width: 100%; }
 
+.row {
+  margin: 0; }
+
 h2 {
   color: #686868;
   font-family: "Libre Baskerville", serif;
@@ -98,9 +101,15 @@ h4 {
   .nav .nav-link {
     color: #444444; }
 
+.dropdown-menu {
+  min-width: 250px; }
+  .dropdown-menu .dropdown-item {
+    font-size: 12px; }
+
 /*--- WORK ---*/
 .work--img {
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  margin: 0 auto; }
 
 /*--- REVIEWS ---*/
 .section--reviews .container {

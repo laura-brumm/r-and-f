@@ -54,6 +54,10 @@ body {
 	max-width: 100%;
 }
 
+.row {
+	margin: 0;
+}
+
 h2 {
 	color: $text__secondary;
 	font: {
@@ -152,11 +156,20 @@ h4 {
 	}
 }
 
+.dropdown-menu {
+	min-width: 250px;
+
+	.dropdown-item {
+		font-size: 12px;
+	}
+}
+
 
 /*--- WORK ---*/
 
 .work--img {
 	padding-bottom: 20px; 
+	margin: 0 auto;
 }
 
 
